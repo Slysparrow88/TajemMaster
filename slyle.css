@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: local('Nexa Light'), local('NexaLight'), url('font/nexalight.woff2') format('woff2'), url('font/nexalight.woff') format('woff'), url('font/nexalight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NexaBold';
+    src: local('Nexa Bold'), local('NexaBold'), url('font/nexabold.woff2') format('woff2'), url('font/nexabold.woff') format('woff'), url('font/nexabold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+header{
+    width: 1550px;
+    height: 74px;
+    background: black;
+    margin: auto;
+    display: flex;
+    border-bottom: 20px solid #f26c4f;
+}
+.logo{
+    height: 100%;
+}
+.name{
+    padding: 7px 0 0 7px;
+}
+.name h2{
+    color: #c0312d;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'NexaBold';
+    font-size: 40px;
+    letter-spacing: -4px;
+    height: 45px;
+}
+.name h2 c{
+    color:#bfbfbf;
+}
+.name h2 d{
+    font-size: 30px;
+}
+.name h3{
+    color: white;
+    margin: 0;
+    font-family: 'NexaLight';
+    font-size: 7px;
+    letter-spacing: 4px;
+    padding: 0 0 0 3px;
+}
