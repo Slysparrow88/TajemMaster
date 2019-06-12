@@ -48,3 +48,109 @@ header{
     letter-spacing: 4px;
     padding: 0 0 0 3px;
 }
+.content{
+    width: 940px;
+    margin: auto;
+}
+.osnBody{
+    margin: auto;
+    max-width: 1550px;
+    background: #ebebeb;
+}
+.searchLine{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    padding: 15px 0 10px 0;
+}
+.search{
+    width: 33%;
+    position: relative;
+    padding: 0 0 0 5px;
+}
+.search input{
+    height: 45px;
+    width: 300px;
+    border: none;
+    box-shadow: -1px 1px 1px #dedede;
+    padding: 0 0 0 20px;
+    font-family: 'NexaLight';
+}
+.search input:focus{
+    outline: 2px solid #f26c4f;
+}
+.search img{
+    position: absolute;
+    top: 11px;
+    left: 265px;
+}
+.findy{
+    width: 13%;
+    margin: 0 100px 0 10px;
+}
+.findy a{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    text-decoration: none;
+    background: white;
+}
+.findy a:hover{
+    -webkit-filter: brightness(85%);
+    transition: 0.6s;
+}
+.findy a:hover #but{
+    background: #f26c4f;
+    transition: 0.6s;
+}
+#findy{
+    width: 97px;
+    display: flex;
+}
+#findy img{
+    padding:15px 0 0 15px;
+    height: 17px;
+}
+#findy h2{
+    padding: 16px 0 0 10px;
+    margin: 0;
+    font-family: 'NexaLight';
+    color: #8f8f8f;
+    font-size: 12px;
+}
+#but{
+    width: 53px;
+    background: #8f8f8f;
+}
+#but h2{
+    transform: rotate(90deg);
+    font-family: 'NexaLight';
+    color: white;
+}
+.social-sd{
+    width: 54%;
+    display: flex;
+    justify-content: space-between;
+}
+.social-sd h2{
+    margin: 0;
+}
+.sd a{
+    display: flex;
+    font-family: 'NexaLight';
+    color: #8f8f8f;
+    font-size: 12px;
+    padding: 12px 10px 0 10px;
+    text-decoration: none;
+}
+.sd:hover{
+    background:#f26c4f;
+    border-radius: 20px;
+    transition: 0.6s;
+    
+}
+.sd img{
+    width: 15px;
+    height: 15px;
+    padding: 3px 5px 0 0;
+}
