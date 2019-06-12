@@ -10,7 +10,9 @@
     font-weight: 700;
     font-style: normal;
 }
-
+body{
+    margin: 0;
+}
 header{
     width: 1550px;
     height: 74px;
@@ -48,6 +50,7 @@ header{
     letter-spacing: 4px;
     padding: 0 0 0 3px;
 }
+/* МЕНЮ ПОИСКА */
 .content{
     width: 940px;
     margin: auto;
@@ -66,7 +69,6 @@ header{
 .search{
     width: 33%;
     position: relative;
-    padding: 0 0 0 5px;
 }
 .search input{
     height: 45px;
@@ -153,4 +155,80 @@ header{
     width: 15px;
     height: 15px;
     padding: 3px 5px 0 0;
+}
+/* ПЕРВАЯ ЧАСТЬ САЙТА */
+#secondFront{
+    display: flex;
+}
+.goodInc{
+    position: relative;
+    width: 67%;
+}
+.goodInc h2{
+    position: absolute;
+    font-family: 'NexaLight';
+    font-weight: 100;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 24px 30px 23px 65px;
+    font-size: 16px;
+    margin: 0;
+    top: 325px;
+    left: 274px;
+}
+.houseWrk{
+    position: relative;
+    width: 33%
+}
+.all{
+    padding: 27px 50px 0 40px;
+    position: absolute;
+    top: 0;
+    font-family: 'NexaLight';
+    color: white;
+}
+#fir{
+    font-size: 19px;
+    font-weight: 100;
+}
+#sec{
+    font-size: 12px;
+    font-weight: 100;
+    color:#8c8c8c;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+}
+.down, .date{
+    display: flex;
+    font-size: 12px;
+    height: 18px;
+}
+.two{
+    margin: 0;    
+    color:#8c8c8c;
+    width: 30%;
+    padding-right: 60px;
+}
+.date{
+    width: 70%;
+    color:#8c8c8c;
+    padding-top: 13px; 
+}
+.date h2{
+    margin: 0;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 3px 0 0 10px;
+}
+#plus{
+    margin: 0;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#plus:hover{
+    color: #f26c4f;
+    transition: 0.4s;
 }
