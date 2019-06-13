@@ -159,6 +159,7 @@ header{
 /* ПЕРВАЯ ЧАСТЬ САЙТА */
 #secondFront{
     display: flex;
+    height: 392px;
 }
 .goodInc{
     position: relative;
@@ -231,4 +232,159 @@ header{
 #plus:hover{
     color: #f26c4f;
     transition: 0.4s;
+}
+#theethFront{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+#theethFront a{
+    position: relative;
+    height: 380px;
+}
+#theethFront a:hover{
+    -webkit-filter: brightness(70%);
+    transition: 0.4s;
+}
+#theethFront a:hover #corner{
+    display: flex;
+    padding-left: 222px; 
+    transition: 0.4s;
+}
+.lineImg{
+    position: absolute;
+    top:0;
+    text-align: right;
+}
+#theethFront a:hover h4{
+    display: none;
+}
+#theethFront a:hover h2{
+    margin-top: 119px;
+}
+.lineImg h2, .lineImg h3{
+    margin-top: 150px;
+    padding-left: 29px;
+    text-align: start;
+    color: #4f4f4f;
+    font-family: 'NexaBold';
+    font-size: 25px;
+}
+.lineImg h3{
+    font-size: 12px;
+    margin-top: 27px
+}
+.lineImg h4{
+    padding: 5px 15px 0 0;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+#corner{
+    display: none;
+}
+#fourFront{
+    display: flex;
+    margin-top: 18px; 
+}
+.fourLeftSide{
+    width: 620px;
+    padding-right: 18px; 
+}
+.fourLeftSide a{
+    text-decoration: none;
+    color: #707070;
+    font-family: 'NexaBold';
+    font-size: 14px;
+}
+.fourRightSide{
+    width: 300px;
+}
+.topBlock{
+    padding-top: 36px; 
+    margin-bottom: 18px;
+    border-left: 4px solid #f26c4f;
+    background: white;
+    box-shadow: 1px 1px 1px #dedede;
+}
+.middleBlock{
+    padding-top: 28px; 
+    padding-bottom: 25px;
+    margin-bottom: 9px;
+    border-left: 4px solid #8f8f8f;
+    background: white;
+    box-shadow: 1px 1px 1px #dedede;
+}
+.middleBlock h2{
+    font-size: 24px;
+    color: #474747;
+    font-family: 'NexaBold';
+    margin: 0 0 17px 36px;
+}
+.middleBlock:hover{
+    background: #f26c4f;
+    transition: 0.4s;
+    color: white;
+    border-left: 4px solid #ce4e32
+}
+.middleBlock:hover h2{
+    color: white;
+    border-right: 1px solid white;
+}
+.middleBlock:hover img{
+    -webkit-filter: brightness(200%);
+}
+.topBlock:hover{
+    background: #f26c4f;
+    transition: 0.4s;
+    color: white;
+    border-left: 4px solid #ce4e32
+}
+.topBlock:hover h2{
+    color: white;
+    border-right: 1px solid white;
+}
+.topBlock:hover img{
+    -webkit-filter: brightness(200%);
+}
+.topBlock h2{
+    font-size: 24px;
+    color: #474747;
+    font-family: 'NexaBold';
+    margin: 0 0 17px 36px;
+}
+.topBlock h4{
+    margin: 0 0 0 36px;
+    padding: 20px 0 42px 0;
+}
+.datePanel{
+    display: flex;
+    margin-left: 36px; 
+}
+.datePanel h2{
+    font-size: 10px;
+    color: #b4b4b4;
+    font-family: 'NexaBold';
+    margin: 0;
+    padding: 3.5px 25px 0 0;
+    margin: 0 0 5px 0;
+    font-style: italic;
+    border-right: 1px solid#b4b4b4;
+}
+.stars{
+    padding: 0 12px 0 25px;
+    letter-spacing: -2px;
+}
+.stars img{
+    padding-bottom: 7px;
+}
+#last-s{
+    padding-bottom: 6px;
+}
+#com, #con{
+    padding-left: 25px; 
+}
+#vot, #osn, #con{
+    border: none;
 }
