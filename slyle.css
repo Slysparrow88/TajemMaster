@@ -149,7 +149,12 @@ header{
     background:#f26c4f;
     border-radius: 20px;
     transition: 0.6s;
-    
+}
+.sd:hover a{
+    color: white;
+}
+.sd:hover img{
+    -webkit-filter: brightness(160%);
 }
 .sd img{
     width: 15px;
@@ -243,7 +248,7 @@ header{
     height: 380px;
 }
 #theethFront a:hover{
-    -webkit-filter: brightness(70%);
+    -webkit-filter: brightness(85%);
     transition: 0.4s;
 }
 #theethFront a:hover #corner{
@@ -339,7 +344,7 @@ header{
     background: #f26c4f;
     transition: 0.4s;
     color: white;
-    border-left: 4px solid #ce4e32
+    border-left: 4px solid #ce4e32;
 }
 .topBlock:hover h2{
     color: white;
@@ -387,4 +392,189 @@ header{
 }
 #vot, #osn, #con{
     border: none;
+}
+.lineImg-rgh{
+    position: absolute;
+    top: 0;
+    text-align: right;
+}
+
+
+#rightSide{
+    display: flex;
+    justify-content: space-between;
+}
+#rightSide a{
+    text-decoration: none;
+    position: relative;
+    height: 525px;
+    background: #373737;
+}
+#rightSide a:hover{
+    -webkit-filter: brightness(85%);
+    transition: 0.4s;
+}
+#rightSide a:hover #corner{
+    display: flex;
+    padding-left: 222px; 
+    transition: 0.4s;
+}
+#plus2{
+    padding-left: 264px
+}
+#rightSide a:hover h4{
+    display: none;
+}
+#rightSide a:hover .text-rs{
+    margin-top:0px;
+}
+#corner{
+    display: none;
+}
+#picture{
+    width: 300px;
+}
+.text-rs{
+    padding-top: 30px; 
+}
+.text-rs h2, .text-rs h3{
+    margin: 0;
+    padding: 0 30px;
+    font-size: 25px;
+    font-family: 'NexaLight';
+    color: white;
+}
+.text-rs h3{
+    padding-top: 25px; 
+    font-size: 12px;
+}
+.allPrk{
+    padding: 0 25px;
+    height: 210px;
+    border-bottom: 1px solid #d9d9d9;
+    box-shadow: 0 1px 0 white; 
+}
+#firPrk{
+    margin-top: 37px;
+    font-size: 19px;
+    font-family: 'NexaLight';
+    text-align: justify;
+}
+#secPrk{
+    margin-top: 25px;
+    font-size: 12px;
+    font-family: 'NexaLight';
+    text-align: justify;
+}
+.datePrk, .downPrk{
+    display: flex;
+}
+.datePrk h2{
+    font-size: 12px; 
+    margin: 0;
+    font-weight: 100;
+    padding-top: 5px;   
+}
+.downPrk, .datePrk {
+    display: flex;
+    font-size: 12px;
+    height: 18px;
+}
+.twoPrk{
+    margin: 0;
+    color: #8c8c8c;
+    width: 10%;
+    padding-right: 10px;
+}
+.datePrk {
+    width: 70%;
+    color: #8c8c8c;
+    padding-top: 9px;
+}
+#plusPrk{
+    margin: 0;
+    color: #8c8c8c;
+    font-size: 36px;
+    font-family: 'NexaBold';
+    text-decoration: none;
+}
+#plusPrk:hover{
+    color: #f26c4f;
+    transition: 0.4s;
+}
+.endKv{
+    background: white;
+    border-left: 3px solid #cacaca;
+    height: 45px;
+    font-size: 14px;
+    font-family: 'NexaLight';
+    margin-bottom: 8px;
+    box-shadow: 0 1px 0 #c8c8c8; 
+}
+.endKv h2{
+    padding: 10px 0 0 13px; 
+    margin: 0;
+}
+.endKv c{
+    font-family: arial;
+    color: #cacaca;
+    font-size: 12px;
+    font-family: 'NexaLight'
+}
+.endLink{
+    text-decoration: none;
+    color: #535353;
+}
+.endKv:hover{
+    background: #f26c4f;
+    color: white;
+    border-left: 3px solid #ce4e32;
+    transition: 0.4s;
+}
+.endKv:hover c{
+    color: white;
+}
+.stats,.endMenu{
+    display: flex;
+}
+.years {
+    width: 40%;
+}
+.contacts{
+    width: 60%;
+    padding-left: 15px;
+}
+.endMenu{
+    margin: 20px 0 40px 0;
+}
+.endMenu-o{
+    margin: 20px 0 20px 0;
+    display: flex;
+}
+.years h2{
+    font-size: 48px;
+    margin: 0;
+    font-family: 'NexaBold';
+    color: #474747;
+}
+.contacts h2{
+    font-size: 14px;
+    padding-left: 10px; 
+    margin: 0;
+    color: #9d9d9d;
+    font-family: 'NexaLight';
+}
+.endMenu-g{
+    display: flex;
+    padding-top: 10px;
+}
+.endMenu-g h2{
+    padding-top: 10px;
+}
+#g{
+    font-family: 'NexaBold';
+    font-size: 24px;
+    margin: 0;
+    color: #9d9d9d;
+    top:0;
 }
